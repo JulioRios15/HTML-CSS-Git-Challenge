@@ -1,29 +1,35 @@
+
+/* remove browser margins and padding */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* set a default background color */
 body {
     background-color: #d9dcd6;
 }
 
+/*  */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* target h1 elements inside of header class */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* target h1 element with seo class  */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* target div element inside header class */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,24 +38,29 @@ body {
     font-size: 20px;
 }
 
+/* target ul element inside header class */
 .header div ul {
     list-style-type: none;
 }
 
+/* target all li elements inside the header class */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* target a elements */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* target p elements */
 p {
     font-size: 16px;
 }
 
+/*  target hero class */
 .hero {
     height: 800px;
     width: 100%;
@@ -59,22 +70,26 @@ p {
     background-position: center;
 }
 
+/*  target float-left class */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* target float-right class */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
+/*  target content class */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* target benefits class */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -86,54 +101,64 @@ p {
     background-color: #2589bd;
 }
 
+/*  target benefit-lead class */
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* target benefit-brand class */
 .benefit-brand {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/*  target benefit-cost class */
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* target h3 elements in benefit-lead class */
 .benefit-lead h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* target h3 elements in benefit-brand class */
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* target h3 elements in benefit-cost class */
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* target img in benefit-lead class */
 .benefit-lead img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* target img element in benefit-brand class */
 .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* target img element in benefit-cost class */
 .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* target search-engine-optimization class */
 .search-engine-optimization {
     margin-bottom: 20px;
     padding: 50px;
@@ -143,6 +168,7 @@ p {
     color: #ffffff;
 }
 
+/* target online-reputation-management class */
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
@@ -152,6 +178,7 @@ p {
     color: #ffffff;
 }
 
+/* target social-media-marketing class*/
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -161,33 +188,40 @@ p {
     color: #ffffff;
 }
 
+/* target img element inside search-engine-optimization class */
 .search-engine-optimization img {
     max-height: 200px;
 }
 
+/* targets img inside online-reputation-management class */
 .online-reputation-management img {
     max-height: 200px;
 }
 
+/* target img element inside social-media-marketing class  */
 .social-media-marketing img {
     max-height: 200px;
 }
 
+/* target h2 elemts inside search-engine-optimization class */
 .search-engine-optimization h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* target h2 elemts inside online-reputation-management class */
 .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* target h2 elemts inside social-media-marketing class */
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* target footer class */
 .footer {
     padding: 30px;
     clear: both;
@@ -195,6 +229,7 @@ p {
     text-align: center;
 }
 
+/*  target h2 elements inside footer class*/
 .footer h2 {
     font-size: 20px;
 }
